@@ -6,11 +6,11 @@ body {
     font-family: Roboto;
 }
 
-.navbar-bg {
+.navbar-bg, .hero-bg {
     background-color: #1f2937;
 }
 
-.navbar {
+.navbar, .hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,4 +27,29 @@ nav {
 .logo {
     color: #e5e7eb;
     font-weight: bold;
+    font-size: 24px;
+}
+
+.hero-bg {
+    padding: 75px 0;
+}
+
+.hero {
+    gap: 300px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: auto;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+
+.mask {
+    height: 350px;
 }
