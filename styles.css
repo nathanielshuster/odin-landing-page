@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: Roboto;
+}
+
+.navbar-bg {
+    background-color: #1f2937;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+nav {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    gap: 10px;
+}
+
+.logo {
+    color: #e5e7eb;
+    font-weight: bold;
+}
