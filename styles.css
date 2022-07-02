@@ -10,7 +10,7 @@ body {
     background-color: #1f2937;
 }
 
-.navbar, .hero, .box-container {
+.navbar, .hero, .cta-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,7 @@ nav {
     font-size: 24px;
 }
 
-.hero-bg, .random-bg, .quote-bg {
+.hero-bg, .random-bg, .quote-bg, .cta-box {
     padding: 75px 0;
 }
 
@@ -54,6 +54,15 @@ h1 {
     height: 350px;
 }
 
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 300px;
+    gap: 25px;
+}
+
+
 .random-title {
     text-align: center;
     color: #1f2937;
@@ -73,7 +82,7 @@ h1 {
 }
 
 .quote {
-    margin: 0 200px;
+    margin: 0 300px;
 }
 
 .actual-quote {
@@ -86,4 +95,32 @@ h1 {
 .thor {
     text-align: right;
     font-weight: bold;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    padding: 25px 100px;
+    border-radius: 8px;
+}
+
+.cta-title, .cta-subtext {
+    color: #f9faf8;
+}
+
+.cta-title {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.cta-subtext {
+    margin-top: 5px;
+}
+
+.cta-button {
+    padding: 5px 30px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 16px;
 }
